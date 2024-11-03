@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Update</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/update.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="add_newUsers">
+          <a href="home.html" id="adding_Btn"
+            >Go To Home<i class="fa-solid fa-arrow-right-long"></i
+          ></a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <form>
+        <input type="text" placeholder="User Name" class="userName" required />
+        <input
+          type="text"
+          placeholder="True / False"
+          class="userRole"
+          required
+        />
+        <input type="text" placeholder="User Rate" class="userRate" required />
+        <button class="sbmtBtn" type="submit">UPDATE</button>
+      </form>
+    </main>
+    <script type="module" src="assets/js/update.js"></script>
+  </body>
+</html>
